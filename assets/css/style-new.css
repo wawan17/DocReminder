@@ -1,0 +1,554 @@
+/* Fonts */
+@font-face {
+    font-family: 'corbel';
+    src: url('../fonts/corbel.eot');
+    src: local('☺'), 
+        url('../fonts/corbel.woff') format('woff'), 
+        url('../fonts/corbel.ttf') format('truetype'), 
+        url('../fonts/corbel.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'robotoblack';
+    src: url('../fonts/Roboto-Black.eot');
+    src: url('../fonts/Roboto-Black.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Roboto-Black.woff2') format('woff2'),
+         url('../fonts/Roboto-Black.woff') format('woff'),
+         url('../fonts/Roboto-Black.ttf') format('truetype'),
+         url('../fonts/Roboto-Black.svg#robotoblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotoblack_italic';
+    src: url('../fonts/Roboto-BlackItalic.eot');
+    src: url('../fonts/Roboto-BlackItalic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Roboto-BlackItalic.woff2') format('woff2'),
+         url('../fonts/Roboto-BlackItalic.woff') format('woff'),
+         url('../fonts/Roboto-BlackItalic.ttf') format('truetype'),
+         url('../fonts/Roboto-BlackItalic.svg#robotoblack_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotobold';
+    src: url('../fonts/Roboto-Bold.eot');
+    src: url('../fonts/Roboto-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Roboto-Bold.woff2') format('woff2'),
+         url('../fonts/Roboto-Bold.woff') format('woff'),
+         url('../fonts/Roboto-Bold.ttf') format('truetype'),
+         url('../fonts/Roboto-Bold.svg#robotobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotobold_italic';
+    src: url('../fonts/Roboto-BoldItalic.eot');
+    src: url('../fonts/Roboto-BoldItalic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Roboto-BoldItalic.woff2') format('woff2'),
+         url('../fonts/Roboto-BoldItalic.woff') format('woff'),
+         url('../fonts/Roboto-BoldItalic.ttf') format('truetype'),
+         url('../fonts/Roboto-BoldItalic.svg#robotobold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'robotolight';
+    src: url('../fonts/Roboto-Light-webfont.eot');
+    src: url('../fonts/Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Roboto-Light-webfont.woff2') format('woff2'),
+         url('../fonts/Roboto-Light-webfont.woff') format('woff'),
+         url('../fonts/Roboto-Light-webfont.ttf') format('truetype'),
+         url('../fonts/Roboto-Light-webfont.svg#robotolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('../fonts/Roboto-Regular-webfont.eot');
+    src: url('../fonts/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Roboto-Regular-webfont.woff2') format('woff2'),
+         url('../fonts/Roboto-Regular-webfont.woff') format('woff'),
+         url('../fonts/Roboto-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/Roboto-Regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('../fonts/OpenSans-Bold-webfont.eot');
+    src: url('../fonts/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-Bold-webfont.woff2') format('woff2'),
+         url('../fonts/OpenSans-Bold-webfont.woff') format('woff'),
+         url('../fonts/OpenSans-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans-Bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('../fonts/OpenSans-Light-webfont.eot');
+    src: url('../fonts/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-Light-webfont.woff2') format('woff2'),
+         url('../fonts/OpenSans-Light-webfont.woff') format('woff'),
+         url('../fonts/OpenSans-Light-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans-Light-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../fonts/OpenSans-Regular-webfont.eot');
+    src: url('../fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-Regular-webfont.woff2') format('woff2'),
+         url('../fonts/OpenSans-Regular-webfont.woff') format('woff'),
+         url('../fonts/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'open_sanssemibold';
+    src: url('../fonts/OpenSans-Semibold-webfont.eot');
+    src: url('../fonts/OpenSans-Semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-Semibold-webfont.woff2') format('woff2'),
+         url('../fonts/OpenSans-Semibold-webfont.woff') format('woff'),
+         url('../fonts/OpenSans-Semibold-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans-Semibold-webfont.svg#open_sanssemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* General */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    padding: 0 !important;
+    font-family: 'robotoregular';
+    position: relative;
+}
+
+
+
+
+/* Header */
+#header {
+    top: 0;
+    left: 0;
+    background: #000;
+    height: 55px;
+    width: 100%;
+    
+    //display: block;
+    
+    position: fixed;
+    z-index: 2;
+}
+
+.logo {    
+    padding: 0;
+    margin: 5px;
+    float: left;
+    margin-right: 80px;
+}
+
+.menu-container {
+    height: 80px;
+    float: left;
+}
+
+.menu-header {
+    padding: 0;
+    margin: 0;
+}
+
+.menu-header li {
+    float: left;
+    list-style: none;
+    margin: 20px 15px;
+    height: 50px;
+}
+
+.menu-header li:hover a + ul {
+    display: block;
+}
+
+.menu-header li a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'open_sanssemibold';
+    font-size: 12px;
+}
+
+.menu-header li a:hover + ul.menu-detail {
+    display: block;
+}
+
+.menu-detail {
+    display: none;
+    margin-left: -10px;
+    margin-top: 5px;
+    padding: 0;
+    padding-left: 10px;
+    position: absolute;
+    z-index: 2;
+    background: #eee;
+    width: 180px;
+    box-shadow: 0 3px 0px 0 #ddd;
+    border-radius: 0 0 2px 2px;
+}
+
+.menu-detail li {
+    list-style: none;
+    float: none;
+    margin: 0;
+    padding: 2px 0px;
+    height: 22px;
+}
+
+.menu-detail li a {
+    color: #aaa;
+}
+
+.menu-detail li a:hover {
+    color: #1b8dff;
+}
+
+.welcome-message {
+    margin-right: 10px;
+    float: right;
+    height: 50px;
+    line-height: 50px;
+    vertical-align: middle;
+    font-family: 'open_sansregular';
+    font-size: 12px;   
+    color: #fff;
+}
+.welcome-message span {
+    font-size: 11px;
+    margin-left: 20px;
+}
+.welcome-message span:first-child {
+    color: #f8ae22 !important;
+}
+.welcome-message span:nth-child(2) {
+    color: #e51b24 !important;
+    /*text-shadow: 0 0 1px #333;*/
+}
+
+
+
+/* Content */
+#content {
+    margin-top: 50px;
+    clear: both;
+    height: auto;
+    width: 98%;
+    position: relative;
+    display: block;
+    padding: 1%;
+}
+
+/************ Table ************/
+
+#content table {
+    width: 100%;
+    height: 70%;
+    border-collapse: collapse;
+    border: 2px solid #ccc;
+    font-size: 11px;
+    color:#000000;
+}
+
+#content table thead th {
+    font-weight: bold;
+    font-size: 12px;
+    border-bottom: 1px solid #ddd;
+    color:#990000;
+    text-transform: uppercase;
+}
+
+#content tbody {
+    border-bottom: 1px solid #ddd;
+}
+
+#content tbody tr {
+    background: #fff;
+}
+
+#content tbody tr.alt-row {
+    background: #f3f3f3;
+}
+
+#content table td,
+#content table th {
+    padding: 10px;
+    line-height: 1em;
+}        
+
+#content table tfoot td .bulk-actions {
+    padding: 15px 0 5px 0;
+} 
+
+#content table tfoot td .bulk-actions select {
+    padding: 4px;
+    border: 1px solid #ccc;
+}      
+
+
+
+/************ Shortcut Buttons ************/
+
+.shortcut-button {
+    border: 1px solid #ccc;
+    //background: #f7f7f7 url('../images/shortcut-button-bg.gif') top left no-repeat;
+    display: block;
+    width: 130px;
+    margin: 0 0 20px 0;
+}
+
+.shortcut-button span {
+    border: 1px solid #fff;
+    display:block;
+    padding: 15px 10px 15px 10px;
+    text-align: center;
+    color: #555;
+    font-size: 13px;
+    line-height: 1.3em;
+}
+
+.shortcut-button span img {
+    margin-bottom: 10px;
+}
+
+.shortcut-button:hover {
+    background: #fff;
+
+}
+
+.shortcut-button span:hover {
+    color: #57a000; 
+}
+
+ul.shortcut-buttons-set li {
+    float: left;
+    margin: 0 15px 0 0;
+    padding: 0 !important;
+    background: 0;
+}
+
+/*************** Forms ***************/
+
+form label {
+    display: block;
+    padding: 0 0 10px;
+    font-weight: bold;
+    float: left;
+    width: 30%;
+    text-align: right;
+}
+
+form fieldset legend {
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
+form p small {
+    font-size: 0.75em;
+    color: #777;
+}
+
+
+form input.text-input,
+form input.radio,
+form select,
+form textarea,
+form .wysiwyg {
+    /* Modification: Edit Text 6px */
+    padding: 2px;
+    font-size: 13px;
+    background: #fff url('../images/bg-form-field.gif') top left repeat-x;
+    border: 1px solid #d5d5d5;
+    color: #333;
+    margin-left: 20px;
+    border-radius: 0 !important;
+}
+/***tambahan*/           
+form .xsmall-input {
+    width: 20% !important;
+}
+/***tambahan*/				
+form .small-input {
+    width: 30% !important;
+}
+
+form .medium-input {
+    width: 50% !important;
+}
+
+form .large-input {
+    width: 97.5% !important;
+    font-size: 16px !important;
+    padding: 8px !important;
+}
+
+form textarea {
+    width: 97.5% !important;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form select {
+    padding: 4px;
+    background: #fff;
+}
+
+form input[type="checkbox"],
+form input[type="radio"] {
+    padding: 0;
+    background: none;
+    border: 0;
+}
+
+form input[type=file] {
+    margin-left: 20px;
+}
+
+/*************** Notifications ***************/
+
+.notification {
+    position: relative;
+    margin: 0 0 15px 0;
+    padding: 0;
+    border: 1px solid;
+    background-position: 10px 11px !important;
+    background-repeat: no-repeat !important;
+    font-size: 13px;
+    width: 99.8%;
+}
+
+
+.attention {
+    background: #fffbcc url('../images/icons/exclamation.png') 10px 11px no-repeat;
+    border-color: #e6db55;
+    color: #666452;
+}
+
+.information {
+    background: #dbe3ff url('../images/icons/information.png');
+    border-color: #a2b4ee;
+    color: #585b66;
+}
+
+.success {
+    background: #d5ffce url('../images/icons/tick_circle.png');
+    border-color: #9adf8f;
+    color: #556652;
+}
+
+.error {
+    background: #ffcece url('../images/icons/cross_circle.png');
+    border-color: #df8f8f;
+    color: #665252;
+}
+
+.notification div {
+    display:block;
+    font-style:normal;
+    padding: 10px 10px 10px 36px;
+    line-height: 1.5em;
+}
+
+.notification .close {
+    color:#990000;
+    font-size:9px;
+    position:absolute;
+    right:5px;
+    top:5px;
+}
+
+/* Notification for form inputs */
+
+.input-notification {
+    background-position: left 2px;
+    background-repeat: no-repeat;
+    padding: 2px 0 2px 22px;
+    background-color: transparent;
+    margin: 0 0 0 5px;
+}
+
+/* Notification for login page */
+
+#login-wrapper #login-content .notification {
+    border: 0;
+    background-color: #141414;
+    color: #fff !important;
+}
+
+
+/* Footer */
+#footer {
+    clear: both;
+    height: 30px;
+/*    width: 98%;
+    padding: 1%;*/
+    position: relative;
+    display: block;
+}
+
+.footer-copyright {
+    font-family: 'open_sansregular';
+    font-size: 11px;
+    color: #666;
+    text-shadow: 0 0 1px #ccc;
+}
